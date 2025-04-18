@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script> <!-- Use 'defer' to load the script after the DOM -->
+</head>
+
+<body>
+    <div class="mainbox">
+        <h1>Password Strength Checker</h1>
+        <label for="password">Password</label>
+        <input type="text" id="password" placeholder="Type your password here" />
+        <label for="power-strength">Strength of password</label>
+        <div class="powercontainer">
+            <div id="power-point"></div>
+        </div>
+        <div class="instructions">
+            <p class="passwordinstructions">Your password should contain at least one capital letter.</p>
+            <p class="passwordinstructions">Your password should contain at least one lowercase letter.</p>
+            <p class="passwordinstructions">Your password should contain at least one digit (0-9).</p>
+            <p class="passwordinstructions">Your password should contain at least one special character (e.g., !, @, #, $, %, ^, &, *).</p>
+            <p class="passwordinstructions">Your password should be at least 8 characters long.</p>
+        </div>
+    </div>
+</body>
+
+</html>
